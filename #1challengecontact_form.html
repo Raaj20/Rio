@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact information</title>
+    
+    <!-- <link rel="stylesheet" href="#1challengecontact_form.css">  --> 
+
+    <style> 
+    h1{
+    background-color: rgb(38, 192, 17);
+    padding: 50px;
+    border: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+body{
+    background-color: rgb(173, 179, 194);
+    padding: 20px;
+    border: 220px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+button[type="submit"]:hover{
+    curser:pointer;
+    color: blue;
+    background-color: rgb(235, 227, 234);
+}  
+    
+    </style>
+</head>
+<body>
+    <div class="container"> 
+        <form action="">
+        <h1 class="main_heading">Contact Form</h1>
+        <p class="middel">Please fill all the information carefully </p>
+        <hr>
+         <p> Name: <input type="text" required name="name " placeholder="Enter Your Full Name"> </p>
+      <!--   <legend> Gender </legend> -->
+         <p> Gender: &nbsp;&nbsp; Male: <input type="radio" name="gender" id="male" required> female: <input type="radio" name="gender" id="female" required></p>
+         <p> Reg. No: <input type="number" name="number" id="number" required placeholder="123456"></p>
+         <p> Mobile No:<input type="number" name="number" id="number" required placeholder="9175845638"></p>
+         <p>Email:<input type="email" name="email" id="email" required placeholder="name123@gmail.com"></p>
+         <p> Address:</p>
+          <p><textarea name="text"  id="address" cols="100" rows="5" required placeholder=" Enter your Permanent Address"> </textarea></p>
+         <p>Message:</p>
+         <p> <Textarea name="text" id="message" cols="50" rows="8" required placeholder="Write Your Text"></Textarea></p>
+       <!--  <p inputmode="submit">submit</p> -->
+       <button type="submit" form="form1" value="Submit">Submit</button>
+         </form>
+    </div>    
+</body>
+</html>
